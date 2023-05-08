@@ -8,15 +8,13 @@ function PrimaryButton(props) {
     let minWidth = props.minWidth === undefined ? '144px' : props.minWidth; 
     const Button = styled.div`
         background: #3B82F6;
-        border: 1px solid #152842;
         border-radius: 24px;
-        min-width: ${minWidth};
         color: white;
         &:hover {
-            background: linear-gradient(180deg, #4D9FF0 0%, #36699D 100%);
+            background: linear-gradient(180deg, #4D9FF0 0%, #3B82F6 100%);
         }
         &:active {
-            background: #152842;
+            background: #0F172A;
         }
     `;
     return (
